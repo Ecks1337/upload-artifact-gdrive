@@ -1,0 +1,30 @@
+{
+    "name": "upload-artifact-gdrive",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "release": "ncc build src/upload-artifact-gdrive.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ecks1337/upload-artifact-gdrive.git"
+    },
+    "keywords": [],
+    "author": "Ecks1337",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Ecks1337/upload-artifact-gdrive/issues"
+    },
+    "homepage": "https://github.com/Ecks1337/upload-artifact-gdrive#readme",
+    "devDependencies": {
+        "@actions/core": "^1.2.4",
+        "@types/mime-types": "^2.1.0",
+        "@types/node": "^14.0.22",
+        "@zeit/ncc": "^0.22.1",
+        "googleapis": "^52.1.0",
+        "mime-types": "^2.1.27",
+        "typescript": "^3.8.3"
+    }
+}
